@@ -1,0 +1,326 @@
+body {background-color: #162840;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.justificado {text-align: justify;}
+
+  .video-fondo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-fondo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-fondo h1 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    font-family: "Calibri" Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .video-fondo a {
+    display: inline-block;
+    position:relative;
+    align-self: flex-start;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+  }
+
+.title{
+  font-size: 45px;
+  color: #3465A0;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.subtittle {
+    font-size: 25px;
+    text-align: center;
+    color: #A4DDF8;
+  }
+
+  .subtittle2 {
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+
+.subtittle1 {
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    padding: 10px;
+  }
+
+.title1{
+  font-size: 45px;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+.texto {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding:10 px ;
+}
+
+.parrafo {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parrafo1 {
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: justify;
+  line-height: 2.0;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parrafo11 {
+  font-size: 12.9px;
+  color: #FFFFFF;
+  text-align: justify;
+  line-height: 2.0;
+  padding-left: 95px;
+  padding-right: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.columnas {
+    column-count: 3;
+    background-color: #FFFFFF;
+    column-gap: 30px;
+    padding: 30px;
+  }
+
+.tema {
+    break-before: column;
+}
+
+.container {
+    display: flex;
+}
+  
+.left-section {
+    flex-grow: 1;
+    background-color: #A4DDF8;
+    width: 40%;
+}
+
+.left-section1 {
+  flex-grow:1;
+  background-color: #A4DDF8;
+  display: flex;
+  background-color: white;
+  float: right;
+  width: 50%;
+  
+}
+  
+.right-section {
+    flex-grow:1;
+    background-color: #A4DDF8;
+    display: flex;
+    background-color: white;
+    float: right;
+    width: 60%;
+}
+
+.right-section1 {
+    flex-grow:1;
+    background-color:black;
+    width: 50%;
+}
+  
+.video-column {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.image-column {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-column video, .image-column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lista{
+  line-height: 1.9;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+.P1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+.P2 {
+  text-align:right;
+  font-size:15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  padding: 20px;
+}
+
+.img1 {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.text-container {
+  padding-right: 20px; /* Espacio entre texto e imagen */
+}
+
+.p3{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  font-style: inherit;
+  color:white;
+}
+
+.p4{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  font-style: inherit;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.section {
+  display:flex; /*permite movernos*/
+  justify-content:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  height: auto;
+  /*video*/
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Puedes ajustar la altura según tus necesidades */
+  overflow: hidden;
+}
+
+.video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta el tamaño del video para que cubra todo el contenedor */
+  z-index: -1;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  height: auto;
+  justify-content:space-between;
+}
+
+.sectiona{
+  background-color: white;
+  margin-right: 70px;
+  margin-left: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  padding: 10px;
+}
+
+.sectionb{
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  line-height: 1.5;
+  
+}
+
+.section1 labeL {
+  display: block;
+  padding-bottom: 10px
+}
+
+.container1{
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+ .buttons{
+  margin: 0 auto;
+  width: 550px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.buttons button{
+  border: 0px;
+  height: 40px;
+  background-color: #A4DDF8;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 0 15px;
+}
+  
